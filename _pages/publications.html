@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<p class="intro-lede">Selected work on efficient data selection, verifiable multimodal synthesis, and reinforcement-learning reasoning. Publication status is shown as of the source CV.</p>
+
+{% include base_path %}
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
