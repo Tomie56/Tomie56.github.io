@@ -1,57 +1,40 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "Jinhao Jing"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
+subtitle: M.S. student in Artificial Intelligence and Robotics at CUHK-Shenzhen
+
+profile:
+  align: right
+  image: profile.png
+  image_circular: false
+  more_info: >
+    <p>Shot in Shenzhen, China</p>
+
+news: true
+selected_papers: true
+social: true
 ---
 
-<p class="eyebrow">Data-Centric AI | Multimodal Reasoning | Model Steering</p>
+I am an M.S. student at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), advised by [Prof. Benyou Wang](https://wabyking.github.io/old.html). I am also a visiting student at Tsinghua University's Beijing National Research Center for Information Science and Technology, working with [Prof. Yuwang Wang](https://www.bnrist.tsinghua.edu.cn/info/1202/3691.htm). I received my B.Eng. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
 
-I am an M.S. student in **Artificial Intelligence and Robotics** at The Chinese University of Hong Kong, Shenzhen, advised by [Benyou Wang](https://wabyking.github.io/old.html). My work centers on building and understanding the data that trains large models: large-scale pre-training data, data quality modeling and selection, verifiable synthesis, and representation-level steering.
+My research centers on **data-centric AI for foundation models**. I build scalable data systems and learning algorithms that connect data quality to model behavior, with a particular focus on multimodal and verifiable reasoning.
 
-<div class="research-focus">
-I aim to connect data construction, algorithm design, and large-scale training validation into one research loop. My recent work spans WebCode pre-training data, symbolically verifiable multimodal geometry, incremental-utility data selection, and rollout-time representation steering.
-</div>
+Current interests include:
 
-<div class="tag-list" aria-label="Research interests">
-  <span>Data-Centric AI</span>
-  <span>Multimodal LLMs</span>
-  <span>Pre-training Data</span>
-  <span>Data Selection</span>
-  <span>Verifiable Synthesis</span>
-  <span>Representation Steering</span>
-  <span>RLVR / GRPO</span>
-</div>
+<ul class="research-list">
+  <li>Pre-training data quality, selection, and training utility</li>
+  <li>Verifiable multimodal data synthesis and geometric reasoning</li>
+  <li>Representation engineering and rollout-time model steering</li>
+</ul>
 
-Current highlights
-======
+Previously, I worked on multimodal mid-training and data synthesis at SenseTime Research. I am currently a pre-training data algorithm intern at Ubiquant's IQuest Lab.
 
-<div class="metric-grid">
-  <div class="metric"><strong>380B</strong><span>tokens in a delivered WebCode corpus</span></div>
-  <div class="metric"><strong>127K</strong><span>answer-verified geometry QA pairs</span></div>
-  <div class="metric"><strong>43%</strong><span>training-time reduction with One-Step-Train</span></div>
-</div>
+I am currently working on **GeoClaw**, an agent for geometric reasoning; **YGO-Bench**, a benchmark and agent for Yu-Gi-Oh! gameplay; and **training-data selection**. If you are interested in collaborating on any of these directions, please feel free to [email me](mailto:jinhaojing@link.cuhk.edu.cn).
 
-- **Pre-training data at IQuest Lab.** Building recall, scoring, filtering, and versioned delivery pipelines for large-scale WebCode and broader computer-science corpora.
-- **GeoSym127K.** A scalable neuro-symbolic engine and open dataset for verifiable multimodal geometric reasoning.
-- **One-Step-Train.** Incremental optimization utility for efficient multimodal data selection, accepted at ACM Multimedia 2026.
-- **Representation steering.** Studying training-free interventions in multimodal and mathematical reasoning at Tsinghua University.
-
-Education
-======
-
-**The Chinese University of Hong Kong, Shenzhen**  
-M.S. in Artificial Intelligence and Robotics, 2024-2026  
-GPA: 3.78/4.0, ranked 7/117
-
-**Shanghai Jiao Tong University**  
-B.Eng. in Mechanical Engineering, 2019-2024  
-National Gold Award, 7th China International College Students' "Internet+" Innovation and Entrepreneurship Competition
-
-<div class="link-row">
-  <a href="/research/">Explore research &rarr;</a>
-  <a href="/publications/">View publications &rarr;</a>
-  <a href="/files/Jinhao-Jing-CV.pdf">Download CV &rarr;</a>
+<div class="homepage-links">
+  <a href="mailto:jinhaojing@link.cuhk.edu.cn">Email</a>
+  <a href="https://github.com/Tomie56">GitHub</a>
+  <a href="https://scholar.google.com/citations?hl=en&user=3pLUxIMAAAAJ">Google Scholar</a>
+  <a href="{{ '/assets/pdf/Jinhao-Jing-CV.pdf' | relative_url }}">CV</a>
 </div>

@@ -1,34 +1,12 @@
-# Jinhao Jing - Academic Website
+# Jinhao Jing - Academic Homepage
 
-Academic portfolio for Jinhao Jing, built with the open-source
-[Academic Pages](https://github.com/academicpages/academicpages.github.io)
-Jekyll template and designed for GitHub Pages.
+Personal academic website built with the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme and deployed through GitHub Pages.
 
-## Content
+## Local development
 
-- Research overview and selected projects
-- Publications with current submission status
-- Research and industry experience
-- Downloadable PDF CV
-
-## Local preview
-
-Ruby and Bundler are required:
-
-```powershell
+```bash
 bundle install
-bundle exec jekyll serve -l -H localhost
+bundle exec jekyll serve --livereload
 ```
 
-Then open `http://localhost:4000`.
-
-## Publish
-
-Push this repository to `Tomie56/Tomie56.github.io`. In the repository's
-GitHub Pages settings, choose `Deploy from a branch`, select `main`, and use
-the repository root as the source.
-
-## Attribution
-
-The theme is Academic Pages, based on Minimal Mistakes, and is distributed
-under the MIT License included in this repository.
+Then open `http://127.0.0.1:4000`.

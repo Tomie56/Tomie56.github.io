@@ -1,128 +1,197 @@
-.masthead {
-  border-bottom: 1px solid #d9dfdc;
+/*******************************************************************************
+ * Site-specific refinements
+ ******************************************************************************/
+
+:root {
+  --global-theme-color: #a21caf;
+  --global-hover-color: #86198f;
+  --global-footer-bg-color: #f7f7f8;
+  --global-footer-text-color: #6b7280;
+  --global-footer-link-color: #4b5563;
 }
 
-.greedy-nav a,
-.page__footer a,
-.sidebar a {
-  text-decoration: none;
+html[data-theme="dark"] {
+  --global-theme-color: #e879f9;
+  --global-hover-color: #f0abfc;
+  --global-footer-bg-color: #202124;
+  --global-footer-text-color: #aeb1b7;
+  --global-footer-link-color: #d7d9dd;
 }
 
-.page__title {
-  color: #17211d;
-}
-
-.eyebrow {
-  margin: 0 0 0.6rem;
-  color: #23715a;
-  font-size: 0.78rem;
-  font-weight: 700;
+body {
   letter-spacing: 0;
-  text-transform: uppercase;
+  overflow-x: hidden;
 }
 
-.intro-lede {
-  max-width: 48rem;
-  color: #3f4b46;
-  font-size: 1.08rem;
-  line-height: 1.72;
+.navbar {
+  box-shadow: 0 1px 0 var(--global-divider-color);
 }
 
-.research-focus {
-  margin: 1.8rem 0 2.2rem;
-  padding: 1.1rem 1.25rem;
-  border-left: 4px solid #23715a;
-  background: #f3f7f5;
+.navbar .navbar-brand {
+  letter-spacing: 0;
 }
 
-.tag-list {
+.post-title {
+  letter-spacing: 0;
+}
+
+.post-header .desc {
+  color: var(--global-text-color-light);
+  font-size: 1rem;
+  margin-top: 0.35rem;
+}
+
+.profile {
+  margin-left: 2.25rem;
+  width: 205px;
+}
+
+.profile img {
+  border: 1px solid var(--global-divider-color);
+  box-shadow: none !important;
+}
+
+.profile .more-info {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
+  text-align: left;
+}
+
+.profile .more-info p {
+  margin: 0;
+}
+
+.research-list {
+  margin-bottom: 1.4rem;
+}
+
+.research-list li {
+  margin-bottom: 0.35rem;
+}
+
+.homepage-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.45rem;
-  margin: 1rem 0 2rem;
+  gap: 0.9rem;
+  margin: 1rem 0 1.35rem;
 }
 
-.tag-list span {
-  padding: 0.28rem 0.58rem;
-  border: 1px solid #cbd7d1;
-  border-radius: 4px;
+.homepage-links a {
+  font-weight: 500;
+}
+
+.news table th {
+  color: var(--global-text-color-light);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.publications .bibliography > li {
+  margin-bottom: 1.6rem;
+}
+
+.publications .preview {
   background: #fff;
-  color: #2d473d;
-  font-size: 0.78rem;
-}
-
-.metric-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1px;
-  margin: 1.5rem 0 2.4rem;
-  background: #d9dfdc;
-  border: 1px solid #d9dfdc;
-}
-
-.metric {
-  min-width: 0;
-  padding: 1rem;
-  background: #fff;
-}
-
-.metric strong {
+  border: 1px solid var(--global-divider-color);
+  box-shadow: none !important;
   display: block;
-  color: #17211d;
-  font-size: 1.2rem;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
 }
 
-.metric span {
-  color: #65716c;
-  font-size: 0.78rem;
+.publications .title {
+  line-height: 1.35;
 }
 
-.project-entry {
-  margin: 1.5rem 0 2.25rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #d9dfdc;
-}
-
-.project-entry:last-child {
-  border-bottom: 0;
-}
-
-.project-meta,
-.paper-status {
-  color: #65716c;
-  font-size: 0.82rem;
-}
-
-.paper-status {
-  display: inline-block;
-  margin-right: 0.45rem;
-  padding: 0.16rem 0.42rem;
+.publications .links a.btn {
+  border: 1px solid var(--global-divider-color);
   border-radius: 3px;
-  background: #fff0e9;
-  color: #9a3f20;
-  font-weight: 700;
+  letter-spacing: 0;
+  margin-right: 0.35rem;
+  padding: 0.2rem 0.55rem;
 }
 
-.link-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.85rem;
-  margin-top: 0.75rem;
-  font-size: 0.84rem;
-  font-weight: 700;
+.publications .publication-note {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  margin-top: -0.35rem;
 }
 
-.link-row a {
-  color: #23715a;
+.cv-actions {
+  margin: -0.2rem 0 1.8rem;
 }
 
-.sidebar .author__avatar img {
-  border: 1px solid #d9dfdc;
-  background: #edf2ef;
+.cv-actions a {
+  font-weight: 500;
 }
 
-@media (max-width: 600px) {
-  .metric-grid {
+.timeline {
+  margin-bottom: 2.2rem;
+}
+
+.timeline-item {
+  display: grid;
+  gap: 0.35rem 1.5rem;
+  grid-template-columns: 8.25rem minmax(0, 1fr);
+  margin-bottom: 1.55rem;
+}
+
+.timeline-date {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  padding-top: 0.15rem;
+}
+
+.timeline-body h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 0.18rem;
+}
+
+.timeline-body .meta {
+  color: var(--global-text-color-light);
+  margin-bottom: 0.45rem;
+}
+
+.timeline-body ul {
+  margin-bottom: 0;
+  padding-left: 1.15rem;
+}
+
+.timeline-body li {
+  margin-bottom: 0.35rem;
+}
+
+footer.sticky-bottom {
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.82rem;
+  padding: 1rem 0;
+}
+
+@media (max-width: 575px) {
+  .profile,
+  .profile.float-right {
+    float: none !important;
+    margin: 0 0 1.4rem;
+    width: 100%;
+  }
+
+  .profile img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .timeline-item {
+    gap: 0.25rem;
     grid-template-columns: 1fr;
+  }
+
+  .timeline-date {
+    padding-top: 0;
   }
 }

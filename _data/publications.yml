@@ -1,0 +1,62 @@
+- id: xie2026steve
+  title: "Steve-Evolving: Open-World Embodied Self-Evolution via Fine-Grained Diagnosis and Dual-Track Knowledge Distillation"
+  authors: "Zhengwei Xie, Zhisheng Chen, Ziyan Weng, Jinhan Li, Chenglong Li, Zikai Xiao, Jingwei Song, <strong>Jinhao Jing</strong>, Vireo Zhang, and Kun Wang"
+  venue: arXiv e-prints
+  display_year: 2026
+  status: "arXiv:2603.13131; current arXiv version titled MineEvolve"
+  year: 2026
+  abbr: Embodied AI
+  color: "#b45309"
+  preview: steve-evolving.png
+  abstract: "This work studies self-evolving embodied agents in open-world, long-horizon environments. The current arXiv version presents MineEvolve, which transforms execution feedback into reusable behavioral knowledge for planning, diagnosis, and recovery."
+  arxiv: https://arxiv.org/abs/2603.13131
+  pdf: https://arxiv.org/pdf/2603.13131
+  scholar: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pLUxIMAAAAJ&citation_for_view=3pLUxIMAAAAJ:u-x6o8ySG0sC
+  selected: true
+
+- id: jing2026efficient
+  title: Efficient Data Selection for Multimodal Models via Incremental Optimization Utility
+  authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Qiannian Zhao<sup>*</sup>, Chao Huang, and Zhan Su"
+  venue: ACM International Conference on Multimedia
+  display_year: 2026
+  status: Accepted
+  year: 2026
+  abbr: ACM MM
+  color: "#a21caf"
+  preview: ost.png
+  abstract: "The One-Step-Train framework estimates the marginal utility of training examples through a simulated single-step update on a lightweight proxy model. It reduces multimodal training cost while outperforming strong data selection and Full-SFT baselines."
+  arxiv: https://arxiv.org/abs/2605.07488
+  pdf: https://arxiv.org/pdf/2605.07488
+  selected: true
+
+- id: jing2026geosym
+  title: "GeoSym127K: Scalable Symbolically-verifiable Synthesis for Multimodal Geometric Reasoning"
+  authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Zheng Ma<sup>*</sup>, Jinwei Liang, Qiannian Zhao, Shawn Chen, Jing Yang, Por Lip Yee, Prayag Tiwari, Jingjing Bai, Benyou Wang, Lewei Lu, and Zhan Su"
+  venue: NeurIPS Datasets and Benchmarks Track
+  display_year: 2026
+  status: Under review
+  year: 2026
+  abbr: GeoSym
+  color: "#0f766e"
+  preview: geosym127k.png
+  abstract: "GeoSym is a scalable neuro-symbolic framework that produces high-precision geometric diagrams, exact symbolic ground truths, and solver-verified reasoning traces. The released dataset contains 51K images, 127K verified QA pairs, and 55K chain-of-thought examples."
+  arxiv: https://arxiv.org/abs/2605.16371
+  pdf: https://arxiv.org/pdf/2605.16371
+  code: https://github.com/Tomie56/GeoSym127K
+  data: https://huggingface.co/datasets/Tomie0506/GeoSym127K
+  selected: true
+
+- id: zhao2026know
+  title: "Know What You Know: Metacognitive Entropy Calibration for Verifiable RL Reasoning"
+  authors: "Qiannian Zhao<sup>*</sup>, Chen Yang<sup>*</sup>, <strong>Jinhao Jing</strong><sup>*</sup>, Yunke Zhang, Xuhui Ren, Lu Yu, Shijie Zhang, and Hongzhi Yin"
+  venue: KDD Research Track
+  display_year: 2027
+  status: Under review
+  year: 2026
+  abbr: EGPO
+  color: "#374151"
+  preview: egpo.png
+  abstract: "EGPO integrates intrinsic model uncertainty into reinforcement learning with verifiable rewards. It uses a zero-overhead entropy proxy and asymmetric calibration to preserve correct reasoning while regulating overconfident failures."
+  arxiv: https://arxiv.org/abs/2602.22751
+  pdf: https://arxiv.org/pdf/2602.22751
+  selected: true
