@@ -80,7 +80,7 @@ nav_order: 3
   <div class="timeline-item">
     <div class="timeline-date">2026 - present</div>
     <div class="timeline-body">
-      <h3>Rollout-Time Representation Steering</h3>
+      <h3>Rollout-Time Steering for RLVR</h3>
       <p>Activation-level interventions for GRPO/RLVR reasoning. Linear steering improved Math500 acc@8 from 61.42% to 64.25% over the GRPO baseline.</p>
     </div>
   </div>
