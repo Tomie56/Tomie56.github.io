@@ -87,6 +87,29 @@ body {
   white-space: nowrap;
 }
 
+.news table td {
+  color: var(--global-text-color);
+}
+
+.toggle-container {
+  align-items: center;
+  display: flex;
+  margin-left: 0.65rem;
+}
+
+#light-toggle {
+  align-items: center;
+  display: inline-flex;
+  height: 2rem;
+  justify-content: center;
+  width: 2rem;
+}
+
+#light-toggle i {
+  font-size: 1rem;
+  padding: 0 !important;
+}
+
 .publications .bibliography > li {
   margin-bottom: 1.6rem;
 }
