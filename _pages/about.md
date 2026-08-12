@@ -6,10 +6,10 @@ subtitle: M.S. student in Artificial Intelligence and Robotics at CUHK-Shenzhen
 
 profile:
   align: right
-  image: profile.png
+  image: icon.png
   image_circular: false
   more_info: >
-    <p>Shot in Shenzhen, China</p>
+    <p>Shot in Shanghai, China</p>
 
 news: true
 selected_papers: true
@@ -28,7 +28,7 @@ Current interests include:
   <li>Representation engineering and rollout-time model steering</li>
 </ul>
 
-Previously, I worked on multimodal mid-training and data synthesis at SenseTime Research. I am currently a pre-training data algorithm intern at Ubiquant's IQuest Lab.
+Previously, I worked on multimodal mid-training and data synthesis at [SenseTime Research](https://sensetime.com/en/research/). I am currently a pre-training data algorithm intern at Ubiquant's [IQuest Lab](https://iquestlab.github.io/).
 
 I am currently working on **GeoClaw**, an agent for geometric reasoning; **YGO-Bench**, a benchmark and agent for Yu-Gi-Oh! gameplay; and **training-data selection**. If you are interested in collaborating on any of these directions, please feel free to [email me](mailto:jinhaojing@link.cuhk.edu.cn).
 
