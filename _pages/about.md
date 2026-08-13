@@ -18,7 +18,7 @@ social: true
 
 Hello! I'm Jinhao Jing (敬谨皓 in Chinese).
 
-I am an M.S. student at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), advised by [Prof. Benyou Wang](https://wabyking.github.io/old.html). I am also a visiting student at the [THU Metaverse AI Lab](https://github.com/Metaverse-AI-Lab-THU/) @ [BNRist](https://www.bnrist.tsinghua.edu.cn/bnristen/), [Tsinghua University](https://www.tsinghua.edu.cn/en/), working with [Prof. Yuwang Wang](https://www.bnrist.tsinghua.edu.cn/info/1202/3691.htm). I received my B.Eng. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
+I am an M.S. student at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), advised by [Prof. Benyou Wang](https://wabyking.github.io/old.html). I am also a visiting student at the [THU Metaverse AI Lab](https://github.com/Metaverse-AI-Lab-THU/) @ [BNRist](https://www.bnrist.tsinghua.edu.cn/bnristen/), [Tsinghua University](https://www.tsinghua.edu.cn/en/), working with [Prof. Yuwang Wang](https://www.bnrist.tsinghua.edu.cn/info/1202/3691.htm). I am also delighted to collaborate with [Prof. Zhan Su](https://shuishen112.github.io/zhansu.github.io/). I received my B.Eng. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
 
 My research centers on **training-data value for foundation models**. I study how data selection, attribution, and utility estimation shape model behavior, while also working on multimodal reasoning and model steering.
 

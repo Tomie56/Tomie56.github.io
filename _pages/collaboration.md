@@ -11,11 +11,11 @@ I am interested in collaboration on data-centric methods for foundation models, 
 
 ## Training-data value
 
-My primary focus is **training-data value for pre-training and mid-training**: understanding which examples are useful, why they are useful, and how to select or attribute data efficiently. This includes data selection, data attribution, utility estimation, quality modeling, and scalable evaluation for foundation-model training data.
+My primary focus is **training-data value for pre-training and mid-training**: understanding which examples are useful, why they are useful, and how to select or attribute data efficiently. I am particularly interested in combining maintainable rubric and prompt families with posterior training signals and representation-level evidence, including sparse autoencoders (SAEs), to improve quality modeling, data selection, attribution, and utility estimation at scale.
 
-## Geometric reasoning
+## Data synthesis and evaluation
 
-I work on data synthesis and evaluation under verifiable frameworks, including **GeoClaw** and **GeoSym-Bench**. The goal is to build multimodal reasoning systems with reliable data generation and evaluation.
+I work on data synthesis and evaluation under verifiable frameworks: building reliable generation, filtering, and evaluation pipelines whose outputs can be checked rather than judged only by model preference. Geometric reasoning, including **GeoClaw** and **GeoSym-Bench**, is one direction in which I explore these ideas, rather than the sole focus of this work.
 
 ## Game-playing agents
 
