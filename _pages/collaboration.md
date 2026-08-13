@@ -15,7 +15,7 @@ My primary focus is **training-data value for pre-training and mid-training**: u
 
 ## Data synthesis and evaluation
 
-I work on data synthesis and evaluation under verifiable frameworks: building reliable generation, filtering, and evaluation pipelines whose outputs can be checked rather than judged only by model preference. Geometric reasoning, including **GeoClaw** and **GeoSym-Bench**, is one direction in which I explore these ideas, rather than the sole focus of this work.
+I work on data synthesis and evaluation under verifiable frameworks: building reliable generation, filtering, and evaluation pipelines whose outputs can be checked rather than judged only by model preference. Geometric reasoning, including **GeoClaw** and **GeoSym-Bench**, is one direction in which I explore these ideas.
 
 ## Game-playing agents
 
