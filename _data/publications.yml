@@ -31,10 +31,10 @@
 
 - id: jing2026geosym
   title: "GeoSym127K: Scalable Symbolically-verifiable Synthesis for Multimodal Geometric Reasoning"
-  authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Zheng Ma<sup>*</sup>, Jinwei Liang, Qiannian Zhao, Shawn Chen, Jing Yang, Por Lip Yee, Prayag Tiwari, Jingjing Bai, Benyou Wang, Lewei Lu, and Zhan Su"
+  authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Zheng Ma<sup>*</sup>, Jinwei Liang<sup>*</sup>, Qiannian Zhao, Shawn Chen, Jing Yang, Por Lip Yee, Prayag Tiwari, Jingjing Bai, Benyou Wang, Lewei Lu, and Zhan Su"
   venue: NeurIPS Datasets and Benchmarks Track
   display_year: 2026
-  status: Under review
+  status: Single-blind review
   year: 2026
   abbr: GeoSym
   color: "#0f766e"
@@ -49,9 +49,9 @@
 - id: zhao2026know
   title: "Know What You Know: Metacognitive Entropy Calibration for Verifiable RL Reasoning"
   authors: "Qiannian Zhao<sup>*</sup>, Chen Yang<sup>*</sup>, <strong>Jinhao Jing</strong><sup>*</sup>, Yunke Zhang, Xuhui Ren, Lu Yu, Shijie Zhang, and Hongzhi Yin"
-  venue: KDD Research Track
-  display_year: 2027
-  status: Under review
+  venue: arXiv e-prints
+  display_year: 2026
+  status: "arXiv:2602.22751"
   year: 2026
   abbr: EGPO
   color: "#374151"

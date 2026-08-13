@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /cv/
-title: cv
+title: CV
 description: Education, research, and industry experience.
 nav: true
 nav_order: 3
@@ -45,7 +45,7 @@ nav_order: 3
     <div class="timeline-date">Apr 2026 - present</div>
     <div class="timeline-body">
       <h3>Visiting Student</h3>
-      <div class="meta">Tsinghua University, Beijing (onsite)</div>
+      <div class="meta"><a href="https://github.com/Metaverse-AI-Lab-THU/">THU Metaverse AI Lab</a> @ <a href="https://www.bnrist.tsinghua.edu.cn/bnristen/">BNRist</a>, <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, Beijing (onsite)</div>
       <p>Researching model steering and representation engineering with Prof. Yuwang Wang.</p>
     </div>
   </div>

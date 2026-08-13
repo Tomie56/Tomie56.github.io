@@ -13,7 +13,7 @@ footer_text: >
   Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and hosted on GitHub Pages.
 keywords: data-centric AI, multimodal reasoning, large language models, representation steering
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: profile.png
+icon: icon.png
 
 url: https://tomie56.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

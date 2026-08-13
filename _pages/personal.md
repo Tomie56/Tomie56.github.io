@@ -1,11 +1,41 @@
 ---
 layout: page
 permalink: /personal/
-title: personal
+title: Personal
 description: A little more about me beyond research.
 nav: true
 nav_order: 4
 ---
+
+<div class="football-gallery" aria-label="Football photo gallery">
+  <figure>
+    <img src="{{ '/assets/img/imgs_football/微信图片_20260813081626_446_174.jpg' | relative_url }}" alt="Jinhao playing football">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/imgs_football/微信图片_20260813081629_447_174.jpg' | relative_url }}" alt="Jinhao playing football">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/imgs_football/微信图片_20260813081630_448_174.jpg' | relative_url }}" alt="Jinhao playing football">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/imgs_football/微信图片_20260813081632_449_174.jpg' | relative_url }}" alt="Jinhao playing football">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/imgs_football/微信图片_20260813083150_450_174.jpg' | relative_url }}" alt="Jinhao playing football">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/imgs_football/微信图片_20260813083151_451_174.jpg' | relative_url }}" alt="Jinhao playing football">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/imgs_football/微信图片_20260813083152_452_174.jpg' | relative_url }}" alt="Jinhao playing football">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/imgs_football/微信图片_20260813083154_454_174.jpg' | relative_url }}" alt="Jinhao playing football">
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/imgs_football/微信图片_20260813083155_455_174.jpg' | relative_url }}" alt="Jinhao playing football">
+  </figure>
+</div>
 
 ## Beyond research
 

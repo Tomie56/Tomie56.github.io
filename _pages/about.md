@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: M.S. student in Artificial Intelligence and Robotics at CUHK-Shenzhen
 
@@ -16,21 +16,25 @@ selected_papers: true
 social: true
 ---
 
-I am an M.S. student at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), advised by [Prof. Benyou Wang](https://wabyking.github.io/old.html). I am also a visiting student at Tsinghua University's Beijing National Research Center for Information Science and Technology, working with [Prof. Yuwang Wang](https://www.bnrist.tsinghua.edu.cn/info/1202/3691.htm). I received my B.Eng. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
+Hello! I'm Jinhao Jing (敬谨皓 in Chinese).
 
-My research centers on **data-centric AI for foundation models**. I build scalable data systems and learning algorithms that connect data quality to model behavior, with a particular focus on multimodal and verifiable reasoning.
+I am an M.S. student at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), advised by [Prof. Benyou Wang](https://wabyking.github.io/old.html). I am also a visiting student at the [THU Metaverse AI Lab](https://github.com/Metaverse-AI-Lab-THU/) @ [BNRist](https://www.bnrist.tsinghua.edu.cn/bnristen/), [Tsinghua University](https://www.tsinghua.edu.cn/en/), working with [Prof. Yuwang Wang](https://www.bnrist.tsinghua.edu.cn/info/1202/3691.htm). I received my B.Eng. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
+
+My research centers on **training-data value for foundation models**. I study how data selection, attribution, and utility estimation shape model behavior, while also working on multimodal reasoning and model steering.
 
 Current interests include:
 
 <ul class="research-list">
-  <li>Pre-training data quality, selection, and training utility</li>
-  <li>Verifiable multimodal data synthesis and geometric reasoning</li>
-  <li>Representation engineering and rollout-time model steering</li>
+  <li><strong>Training-data value</strong> for pre-training and mid-training: selection, attribution, and utility estimation</li>
+  <li>Data synthesis and evaluation under verifiable frameworks</li>
+  <li>Representation engineering and model steering</li>
 </ul>
 
 Previously, I worked on multimodal mid-training and data synthesis at [SenseTime Research](https://sensetime.com/en/research/). I am currently a pre-training data algorithm intern at Ubiquant's [IQuest Lab](https://iquestlab.github.io/).
 
-I am currently working on **GeoClaw**, an agent for geometric reasoning; **YGO-Bench**, a benchmark and agent for Yu-Gi-Oh! gameplay; and **training-data selection**. If you are interested in collaborating on any of these directions, please feel free to [email me](mailto:jinhaojing@link.cuhk.edu.cn).
+## Collaboration
+
+I am currently working on **training-data value** for pre-training and mid-training, including selection, attribution, and utility estimation; data synthesis and evaluation under verifiable frameworks; and LLM- and agent-based game playing, including [**YGO-Bench**](https://my.feishu.cn/wiki/FYyiweXfmi1Jo6kP2wlc0qLlnAc) and **YGO-Agent**. I am always open to collaboration opportunities in these directions. See my [collaboration page]({{ '/collaboration/' | relative_url }}) for more details, or feel free to [email me](mailto:jinhaojing@link.cuhk.edu.cn).
 
 <div class="homepage-links">
   <a href="mailto:jinhaojing@link.cuhk.edu.cn">Email</a>
