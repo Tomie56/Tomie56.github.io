@@ -37,7 +37,7 @@ nav_order: 3
     <div class="timeline-date">Jun 2026 - present</div>
     <div class="timeline-body">
       <h3>Pre-training Data Algorithm Intern</h3>
-      <div class="meta">Ubiquant / <a href="https://iquestlab.github.io/">IQuest Lab</a>, Beijing</div>
+      <div class="meta"><a href="https://iquestlab.github.io/">IQuest Lab</a>, <a href="https://www.ubiquant.com/website/en">Ubiquant</a>, Beijing</div>
       <p>Researching algorithms for foundation-model pre-training data, including data quality, selection, and large-scale evaluation.</p>
     </div>
   </div>
@@ -53,7 +53,7 @@ nav_order: 3
     <div class="timeline-date">Jul 2025 - Apr 2026</div>
     <div class="timeline-body">
       <h3>Research Algorithm Intern</h3>
-      <div class="meta"><a href="https://sensetime.com/en/research/">SenseTime Research</a>, Shenzhen</div>
+      <div class="meta"><a href="https://www.sensenova.cn/">SenseNova</a>, <a href="https://sensetime.com/en/research/">SenseTime Research</a>, Shenzhen</div>
       <p>Worked on multimodal mid-training, data synthesis, and model-development experiments for SenseNova.</p>
     </div>
   </div>

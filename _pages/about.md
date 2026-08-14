@@ -30,7 +30,7 @@ Current interests include:
   <li>Representation engineering and model steering</li>
 </ul>
 
-Previously, I worked on multimodal mid-training and data synthesis at [SenseTime Research](https://sensetime.com/en/research/). I am currently a pre-training data algorithm intern at Ubiquant's [IQuest Lab](https://iquestlab.github.io/).
+Previously, I worked on multimodal mid-training and data synthesis at [SenseNova](https://www.sensenova.cn/), [SenseTime Research](https://sensetime.com/en/research/). I am currently a pre-training data algorithm intern at [IQuest Lab](https://iquestlab.github.io/), [Ubiquant](https://www.ubiquant.com/website/en).
 
 ## Collaboration
 

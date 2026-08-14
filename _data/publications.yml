@@ -1,3 +1,20 @@
+- id: jing2026predictive
+  title: "Predictive Memory Localization: Forecasting Selective Intervention Paths from Internal Signals"
+  authors: "<strong>Jinhao Jing</strong>, Tian Zeyu, Lucas Qingyang Fang, Zhisheng Chen, Shuang Chen, Yuhao Luo, and Qiannian Zhao"
+  venue: arXiv e-prints
+  display_year: 2026
+  status: "arXiv:2608.12892"
+  year: 2026
+  abbr: PML
+  color: "#2563eb"
+  preview: pml.png
+  abstract: "Predictive Memory Localization treats measured-grid intervention paths as predictive objects for memory localization. Low-dose causal responses forecast selective outcomes and support risk-aware activation-steering decisions across three base models."
+  arxiv: https://arxiv.org/abs/2608.12892
+  pdf: https://arxiv.org/pdf/2608.12892
+  code: https://github.com/Tomie56/Predictive-Memory-Localization
+  data: https://github.com/Tomie56/Predictive-Memory-Localization/tree/main/data
+  selected: true
+
 - id: xie2026steve
   title: "Steve-Evolving: Open-World Embodied Self-Evolution via Fine-Grained Diagnosis and Dual-Track Knowledge Distillation"
   authors: "Zhengwei Xie, Zhisheng Chen, Ziyan Weng, Jinhan Li, Chenglong Li, Zikai Xiao, Jingwei Song, <strong>Jinhao Jing</strong>, Vireo Zhang, and Kun Wang"
