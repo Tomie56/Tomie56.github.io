@@ -18,9 +18,9 @@
 - id: xie2026steve
   title: "Steve-Evolving: Open-World Embodied Self-Evolution via Fine-Grained Diagnosis and Dual-Track Knowledge Distillation"
   authors: "Zhengwei Xie, Zhisheng Chen, Ziyan Weng, Jinhan Li, Chenglong Li, Zikai Xiao, Jingwei Song, <strong>Jinhao Jing</strong>, Vireo Zhang, and Kun Wang"
-  venue: arXiv e-prints
+  venue: NeurIPS 2026
   display_year: 2026
-  status: "arXiv:2603.13131; current arXiv version titled MineEvolve"
+  status: "Accepted (poster); arXiv:2603.13131; current arXiv version titled MineEvolve"
   year: 2026
   abbr: Embodied AI
   color: "#b45309"
@@ -49,9 +49,9 @@
 - id: jing2026geosym
   title: "GeoSym127K: Scalable Symbolically-verifiable Synthesis for Multimodal Geometric Reasoning"
   authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Zheng Ma<sup>*</sup>, Jinwei Liang<sup>*</sup>, Qiannian Zhao, Shawn Chen, Jing Yang, Por Lip Yee, Prayag Tiwari, Jingjing Bai, Benyou Wang, Lewei Lu, and Zhan Su"
-  venue: NeurIPS Datasets and Benchmarks Track
+  venue: NeurIPS 2026 Evaluations and Datasets Track
   display_year: 2026
-  status: Single-blind review
+  status: "Accepted (oral; 15/3757)"
   year: 2026
   abbr: GeoSym
   color: "#0f766e"
