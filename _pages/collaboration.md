@@ -19,11 +19,11 @@ I work on data synthesis and evaluation under verifiable frameworks: building re
 
 ## Game-playing agents
 
-I am also developing LLM- and agent-based game-playing systems, including [**YGO-Bench**](https://my.feishu.cn/wiki/FYyiweXfmi1Jo6kP2wlc0qLlnAc) and **YGO-Agent**. YGO-Bench studies rule grounding, chain and priority timing, long-horizon decision-making, and recovery after an interrupted line of play in an engine-verified environment.
+I am also developing LLM- and agent-based game-playing systems, including [**YGO-Bench**](https://tomie56.github.io/YGO-Bench/) and **YGO-Agent**. YGO-Bench studies rule grounding, chain and priority timing, long-horizon decision-making, and recovery after an interrupted line of play in an engine-verified environment.
 
 ## Project notes
 
-- [YGO-Bench: Can an LLM or agent become a strong Yu-Gi-Oh! player?](https://my.feishu.cn/wiki/FYyiweXfmi1Jo6kP2wlc0qLlnAc)
+- [YGO-Bench: Can an LLM or agent become a strong Yu-Gi-Oh! player?](https://tomie56.github.io/YGO-Bench/), with an [interactive review interface](https://tomie56.github.io/YGO-Bench/review/)
 - [GeoClaw: Tool-using geometric problem-solving agent](https://my.feishu.cn/wiki/XYmsw5dCQilio8kAxkMcuuJ0nLb)
 - [GeoSym-Reasoning](https://my.feishu.cn/wiki/TfvYw4H1eigkJpkUlCMcLs1xnlc)
 

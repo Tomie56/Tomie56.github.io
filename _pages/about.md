@@ -34,7 +34,7 @@ Previously, I worked on multimodal mid-training and data synthesis at [SenseNova
 
 ## Collaboration
 
-I am currently working on **training-data value** for pre-training and mid-training, including selection, attribution, and utility estimation; data synthesis and evaluation under verifiable frameworks; and LLM- and agent-based game playing, including [**YGO-Bench**](https://my.feishu.cn/wiki/FYyiweXfmi1Jo6kP2wlc0qLlnAc) and **YGO-Agent**. I am always open to collaboration opportunities in these directions. See my [collaboration page]({{ '/collaboration/' | relative_url }}) for more details, or feel free to [email me](mailto:jinhaojing@link.cuhk.edu.cn).
+I am currently working on **training-data value** for pre-training and mid-training, including selection, attribution, and utility estimation; data synthesis and evaluation under verifiable frameworks; and LLM- and agent-based game playing, including [YGO-Bench](https://tomie56.github.io/YGO-Bench/) and YGO-Agent. I am always open to collaboration opportunities in these directions. See my [collaboration page]({{ '/collaboration/' | relative_url }}) for more details, or feel free to [email me](mailto:jinhaojing@link.cuhk.edu.cn).
 
 <div class="homepage-links">
   <a href="mailto:jinhaojing@link.cuhk.edu.cn">Email</a>
