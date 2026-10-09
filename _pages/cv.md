@@ -13,18 +13,24 @@ nav_order: 3
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">2024 - 2026</div>
+    <div class="timeline-date">
+      2024 - 2026
+      <img class="timeline-date-logo timeline-date-logo--stacked" src="{{ '/assets/img/institutions/cuhk-wordmark.png' | relative_url }}" alt="The Chinese University of Hong Kong, Shenzhen">
+    </div>
     <div class="timeline-body">
       <h3>M.S. in Artificial Intelligence and Robotics</h3>
-      <div class="meta">The Chinese University of Hong Kong, Shenzhen</div>
+      <div class="meta"><a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a></div>
       <p>GPA 3.78/4.0, ranked 7/117. Advised by Prof. Benyou Wang.</p>
     </div>
   </div>
   <div class="timeline-item">
-    <div class="timeline-date">2019 - 2024</div>
+    <div class="timeline-date">
+      2019 - 2024
+      <img class="timeline-date-logo timeline-date-logo--wordmark" src="{{ '/assets/img/institutions/sjtu-wordmark-color.png' | relative_url }}" alt="Shanghai Jiao Tong University">
+    </div>
     <div class="timeline-body">
       <h3>B.Eng. in Mechanical Engineering</h3>
-      <div class="meta">Shanghai Jiao Tong University</div>
+      <div class="meta"><a href="https://www.sjtu.edu.cn/en/">Shanghai Jiao Tong University</a></div>
       <p>GPA 3.3/4.3. National Gold Award, China International College Students' Innovation Competition.</p>
     </div>
   </div>
@@ -34,7 +40,10 @@ nav_order: 3
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">Jun 2026 - present</div>
+    <div class="timeline-date">
+      Jun 2026 - present
+      <img class="timeline-date-logo timeline-date-logo--wordmark" src="{{ '/assets/img/institutions/iquest-wordmark.png' | relative_url }}" alt="IQuest Lab logo">
+    </div>
     <div class="timeline-body">
       <h3>Pre-training Data Algorithm Intern</h3>
       <div class="meta"><a href="https://iquestlab.github.io/">IQuest Lab</a>, <a href="https://www.ubiquant.com/website/en">Ubiquant</a>, Beijing</div>
@@ -42,7 +51,10 @@ nav_order: 3
     </div>
   </div>
   <div class="timeline-item">
-    <div class="timeline-date">Apr 2026 - present</div>
+    <div class="timeline-date">
+      Apr 2026 - present
+      <img class="timeline-date-logo timeline-date-logo--wordmark" src="{{ '/assets/img/institutions/tsinghua-wordmark-color.png' | relative_url }}" alt="Tsinghua University">
+    </div>
     <div class="timeline-body">
       <h3>Visiting Student</h3>
       <div class="meta"><a href="https://github.com/Metaverse-AI-Lab-THU/">THU Metaverse AI Lab</a> @ <a href="https://www.bnrist.tsinghua.edu.cn/bnristen/">BNRist</a>, <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, Beijing (onsite)</div>
@@ -50,11 +62,14 @@ nav_order: 3
     </div>
   </div>
   <div class="timeline-item">
-    <div class="timeline-date">Jul 2025 - Apr 2026</div>
+    <div class="timeline-date">
+      Jul 2025 - Apr 2026
+      <img class="timeline-date-logo timeline-date-logo--wide" src="{{ '/assets/img/institutions/sensetime.png' | relative_url }}" alt="SenseTime Research logo">
+    </div>
     <div class="timeline-body">
       <h3>Research Algorithm Intern</h3>
       <div class="meta"><a href="https://www.sensenova.cn/">SenseNova</a>, <a href="https://sensetime.com/en/research/">SenseTime Research</a>, Shenzhen</div>
-      <p>Worked on multimodal mid-training, data synthesis, and model-development experiments for SenseNova.</p>
+      <p>Worked on multimodal mid-training and model-development experiments for SenseNova.</p>
     </div>
   </div>
 </div>

@@ -18,23 +18,18 @@ social: true
 
 Hello! I'm Jinhao Jing (敬谨皓 in Chinese).
 
-I am an M.S. student at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), advised by [Prof. Benyou Wang](https://wabyking.github.io/old.html). I am also a visiting student at the [THU Metaverse AI Lab](https://github.com/Metaverse-AI-Lab-THU/) @ [BNRist](https://www.bnrist.tsinghua.edu.cn/bnristen/), [Tsinghua University](https://www.tsinghua.edu.cn/en/), working with [Prof. Yuwang Wang](https://www.bnrist.tsinghua.edu.cn/info/1202/3691.htm). I am also delighted to collaborate with [Prof. Zhan Su](https://shuishen112.github.io/zhansu.github.io/). I received my B.Eng. in Mechanical Engineering from Shanghai Jiao Tong University in 2024.
+I am an M.S. student at <a href="https://www.cuhk.edu.cn/en"><img class="about-org-logo about-org-logo--crest" src="{{ '/assets/img/institutions/cuhk-shenzhen-crest.png' | relative_url }}" alt="">The Chinese University of Hong Kong, Shenzhen</a>, advised by [Prof. Benyou Wang](https://wabyking.github.io/old.html). I am also a visiting student at <a href="https://github.com/Metaverse-AI-Lab-THU/"><img class="about-org-logo" src="{{ '/assets/img/institutions/tsinghua.svg' | relative_url }}" alt="">THU Metaverse AI Lab</a> @ [BNRist](https://www.bnrist.tsinghua.edu.cn/bnristen/), [Tsinghua University](https://www.tsinghua.edu.cn/en/), working with [Prof. Yuwang Wang](https://www.bnrist.tsinghua.edu.cn/info/1202/3691.htm). I am also delighted to collaborate with [Prof. Zhan Su](https://shuishen112.github.io/zhansu.github.io/). I received my B.Eng. in Mechanical Engineering from <a href="https://www.sjtu.edu.cn/en/"><img class="about-org-logo" src="{{ '/assets/img/institutions/sjtu.png' | relative_url }}" alt="">Shanghai Jiao Tong University</a> in 2024.
 
-My research centers on **training-data value for foundation models**. I study how data selection, attribution, and utility estimation shape model behavior, while also working on multimodal reasoning and model steering.
+Previously, I worked on multimodal mid-training at [SenseNova](https://www.sensenova.cn/), <a href="https://sensetime.com/en/research/"><img class="about-org-logo about-org-logo--wide" src="{{ '/assets/img/institutions/sensetime.png' | relative_url }}" alt="">SenseTime Research</a>. I am currently a pre-training data algorithm intern at <a href="https://iquestlab.github.io/"><img class="about-org-logo" src="{{ '/assets/img/institutions/iquest.png' | relative_url }}" alt="">IQuest Lab</a>, <a href="https://www.ubiquant.com/website/en"><img class="about-org-logo" src="{{ '/assets/img/institutions/ubiquant.png' | relative_url }}" alt="">Ubiquant</a>.
+
+My research centers on **training-data value for foundation models**. If you are interested in [these directions]({{ '/collaboration/' | relative_url }}) or have another interesting problem in mind, please feel free to [email me](mailto:jinhaojing@link.cuhk.edu.cn).
 
 Current interests include:
 
 <ul class="research-list">
-  <li><strong>Training-data value</strong> for pre-training and mid-training: selection, attribution, and utility estimation</li>
+  <li><strong>Training-data value</strong> for pre-training and mid-training</li>
   <li>Data synthesis and evaluation under verifiable frameworks</li>
-  <li>Representation engineering and model steering</li>
 </ul>
-
-Previously, I worked on multimodal mid-training and data synthesis at [SenseNova](https://www.sensenova.cn/), [SenseTime Research](https://sensetime.com/en/research/). I am currently a pre-training data algorithm intern at [IQuest Lab](https://iquestlab.github.io/), [Ubiquant](https://www.ubiquant.com/website/en).
-
-## Collaboration
-
-I am currently working on **training-data value** for pre-training and mid-training, including selection, attribution, and utility estimation; data synthesis and evaluation under verifiable frameworks; and LLM- and agent-based game playing, including [YGO-Bench](https://tomie56.github.io/YGO-Bench/) and YGO-Agent. I am always open to collaboration opportunities in these directions. See my [collaboration page]({{ '/collaboration/' | relative_url }}) for more details, or feel free to [email me](mailto:jinhaojing@link.cuhk.edu.cn).
 
 <div class="homepage-links">
   <a href="mailto:jinhaojing@link.cuhk.edu.cn">Email</a>

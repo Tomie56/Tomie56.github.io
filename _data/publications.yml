@@ -20,12 +20,12 @@
   authors: "Zhengwei Xie, Zhisheng Chen, Ziyan Weng, Jinhan Li, Chenglong Li, Zikai Xiao, Jingwei Song, <strong>Jinhao Jing</strong>, Vireo Zhang, and Kun Wang"
   venue: NeurIPS 2026
   display_year: 2026
-  status: "Accepted (poster); arXiv:2603.13131; current arXiv version titled MineEvolve"
+  status: '<strong class="publication-accepted">Accepted (poster)</strong>'
   year: 2026
-  abbr: Embodied AI
+  abbr: NeurIPS
   color: "#b45309"
   preview: steve-evolving.png
-  abstract: "This work studies self-evolving embodied agents in open-world, long-horizon environments. The current arXiv version presents MineEvolve, which transforms execution feedback into reusable behavioral knowledge for planning, diagnosis, and recovery."
+  abstract: "This work studies self-evolving embodied agents in open-world, long-horizon environments. It transforms execution feedback into reusable behavioral knowledge for planning, diagnosis, and recovery."
   arxiv: https://arxiv.org/abs/2603.13131
   pdf: https://arxiv.org/pdf/2603.13131
   scholar: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pLUxIMAAAAJ&citation_for_view=3pLUxIMAAAAJ:u-x6o8ySG0sC
@@ -36,7 +36,7 @@
   authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Qiannian Zhao<sup>*</sup>, Chao Huang, and Zhan Su"
   venue: ACM International Conference on Multimedia
   display_year: 2026
-  status: Accepted
+  status: '<strong class="publication-accepted">Accepted</strong>'
   year: 2026
   abbr: ACM MM
   color: "#a21caf"
@@ -51,9 +51,9 @@
   authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Zheng Ma<sup>*</sup>, Jinwei Liang<sup>*</sup>, Qiannian Zhao, Shawn Chen, Jing Yang, Por Lip Yee, Prayag Tiwari, Jingjing Bai, Benyou Wang, Lewei Lu, and Zhan Su"
   venue: NeurIPS 2026 Evaluations and Datasets Track
   display_year: 2026
-  status: "Accepted (oral)"
+  status: '<strong class="publication-accepted publication-accepted--oral">Accepted (oral, top 0.5%)</strong>'
   year: 2026
-  abbr: GeoSym
+  abbr: NeurIPS
   color: "#0f766e"
   preview: geosym127k.png
   abstract: "GeoSym is a scalable neuro-symbolic framework that produces high-precision geometric diagrams, exact symbolic ground truths, and solver-verified reasoning traces. The released dataset contains 51K images, 127K verified QA pairs, and 55K chain-of-thought examples."

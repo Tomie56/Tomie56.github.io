@@ -2,9 +2,9 @@
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     <div
-      class="table-responsive"
+      class="table-responsive{% if include.limit and site.announcements.scrollable and news_size > 3 %} news-scroll{% endif %}"
       {% if include.limit and site.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
+        tabindex="0" role="region" aria-label="News updates"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
