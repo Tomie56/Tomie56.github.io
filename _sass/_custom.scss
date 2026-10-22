@@ -117,12 +117,45 @@ body {
   display: block;
   height: 100%;
   object-fit: cover;
-  transition: transform 180ms ease;
   width: 100%;
 }
 
-.football-gallery img:hover {
-  transform: scale(1.03);
+.publications img.preview,
+.football-gallery img {
+  cursor: zoom-in;
+}
+
+.publications img.preview:focus-visible,
+.football-gallery img:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+
+.image-hover-preview {
+  background: #fff;
+  border: 2px solid var(--global-divider-color);
+  border-radius: 5px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.24);
+  box-sizing: content-box;
+  overflow: hidden;
+  pointer-events: none;
+  position: fixed;
+  z-index: 1040;
+}
+
+.image-hover-preview img {
+  display: block;
+  max-width: none;
+  object-fit: contain;
+}
+
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 1050;
+}
+
+.medium-zoom-image--opened {
+  object-fit: contain;
 }
 
 .news table th {
