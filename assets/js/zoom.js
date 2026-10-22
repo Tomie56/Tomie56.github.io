@@ -16,7 +16,6 @@ $(document).ready(function () {
 
   if (!images.length) return;
 
-  const hoverPointer = window.matchMedia("(hover: hover) and (pointer: fine)");
   preview = document.createElement("div");
   preview.className = "image-hover-preview";
   preview.setAttribute("aria-hidden", "true");
@@ -63,11 +62,14 @@ $(document).ready(function () {
     image.setAttribute("role", "button");
     image.setAttribute("aria-label", "Enlarge image: " + image.alt);
     image.addEventListener("pointerenter", function (event) {
-      if (hoverPointer.matches && event.pointerType === "mouse") showPreview(image);
+      if (event.pointerType === "mouse") showPreview(image);
+    });
+    image.addEventListener("pointermove", function (event) {
+      if (preview.hidden && event.pointerType === "mouse") showPreview(image);
     });
     image.addEventListener("pointerleave", hidePreview);
     image.addEventListener("focus", function () {
-      if (hoverPointer.matches) showPreview(image);
+      if (image.matches(":focus-visible")) showPreview(image);
     });
     image.addEventListener("blur", hidePreview);
     image.addEventListener("click", hidePreview);

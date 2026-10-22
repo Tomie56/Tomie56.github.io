@@ -36,6 +36,19 @@ jobs:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
 
+      - name: Verify generated image-viewer assets
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          for page in ('index.html', 'publications/index.html', 'personal/index.html'):
+              html = (Path('_site') / page).read_text()
+              assert '{{version}}' not in html, f'Unresolved library version in {page}'
+              assert '/assets/js/zoom.js?' in html, f'Missing script cache key in {page}'
+              assert '/assets/css/main.css?' in html, f'Missing stylesheet cache key in {page}'
+              assert 'main.css?d41d8cd98f00b204e9800998ecf8427e' not in html, f'Empty stylesheet cache key in {page}'
+          print('Image-viewer asset URLs verified on all three pages.')
+          PY
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
