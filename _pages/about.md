@@ -24,6 +24,8 @@ Previously, I worked on multimodal mid-training at [SenseNova](https://www.sense
 
 My research centers on **training-data value for foundation models**. If you are interested in [these directions]({{ '/collaboration/' | relative_url }}) or have another interesting problem in mind, please feel free to [email me](mailto:jinhaojing@link.cuhk.edu.cn).
 
+For a detailed introduction to my research and projects, see my [Research page]({{ "/collaboration/" | relative_url }}).
+
 Current interests include:
 
 <ul class="research-list">

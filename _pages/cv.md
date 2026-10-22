@@ -14,7 +14,7 @@ nav_order: 3
 <div class="timeline">
   <div class="timeline-item">
     <div class="timeline-date">
-      2024 - 2026
+      Sep 2024 &ndash; Mar 2027 (expected)
       <img class="timeline-date-logo timeline-date-logo--stacked" src="{{ '/assets/img/institutions/cuhk-wordmark.png' | relative_url }}" alt="The Chinese University of Hong Kong, Shenzhen">
     </div>
     <div class="timeline-body">

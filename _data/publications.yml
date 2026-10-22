@@ -1,52 +1,5 @@
-- id: jing2026predictive
-  title: "Predictive Memory Localization: Forecasting Selective Intervention Paths from Internal Signals"
-  authors: "<strong>Jinhao Jing</strong>, Tian Zeyu, Lucas Qingyang Fang, Zhisheng Chen, Shuang Chen, Yuhao Luo, and Qiannian Zhao"
-  venue: arXiv e-prints
-  display_year: 2026
-  status: "arXiv:2608.12892"
-  year: 2026
-  abbr: PML
-  color: "#2563eb"
-  preview: pml.png
-  abstract: "Predictive Memory Localization treats measured-grid intervention paths as predictive objects for memory localization. Low-dose causal responses forecast selective outcomes and support risk-aware activation-steering decisions across three base models."
-  arxiv: https://arxiv.org/abs/2608.12892
-  pdf: https://arxiv.org/pdf/2608.12892
-  code: https://github.com/Tomie56/Predictive-Memory-Localization
-  data: https://github.com/Tomie56/Predictive-Memory-Localization/tree/main/data
-  selected: true
-
-- id: xie2026steve
-  title: "Steve-Evolving: Open-World Embodied Self-Evolution via Fine-Grained Diagnosis and Dual-Track Knowledge Distillation"
-  authors: "Zhengwei Xie, Zhisheng Chen, Ziyan Weng, Jinhan Li, Chenglong Li, Zikai Xiao, Jingwei Song, <strong>Jinhao Jing</strong>, Vireo Zhang, and Kun Wang"
-  venue: NeurIPS 2026
-  display_year: 2026
-  status: '<strong class="publication-accepted">Accepted (poster)</strong>'
-  year: 2026
-  abbr: NeurIPS
-  color: "#b45309"
-  preview: steve-evolving.png
-  abstract: "This work studies self-evolving embodied agents in open-world, long-horizon environments. It transforms execution feedback into reusable behavioral knowledge for planning, diagnosis, and recovery."
-  arxiv: https://arxiv.org/abs/2603.13131
-  pdf: https://arxiv.org/pdf/2603.13131
-  scholar: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pLUxIMAAAAJ&citation_for_view=3pLUxIMAAAAJ:u-x6o8ySG0sC
-  selected: true
-
-- id: jing2026efficient
-  title: Efficient Data Selection for Multimodal Models via Incremental Optimization Utility
-  authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Qiannian Zhao<sup>*</sup>, Chao Huang, and Zhan Su"
-  venue: ACM International Conference on Multimedia
-  display_year: 2026
-  status: '<strong class="publication-accepted">Accepted</strong>'
-  year: 2026
-  abbr: ACM MM
-  color: "#a21caf"
-  preview: ost.png
-  abstract: "The One-Step-Train framework estimates the marginal utility of training examples through a simulated single-step update on a lightweight proxy model. It reduces multimodal training cost while outperforming strong data selection and Full-SFT baselines."
-  arxiv: https://arxiv.org/abs/2605.07488
-  pdf: https://arxiv.org/pdf/2605.07488
-  selected: true
-
 - id: jing2026geosym
+  category: published
   title: "GeoSym127K: Scalable Symbolically-verifiable Synthesis for Multimodal Geometric Reasoning"
   authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Zheng Ma<sup>*</sup>, Jinwei Liang<sup>*</sup>, Qiannian Zhao, Shawn Chen, Jing Yang, Por Lip Yee, Prayag Tiwari, Jingjing Bai, Benyou Wang, Lewei Lu, and Zhan Su"
   venue: NeurIPS 2026 Evaluations and Datasets Track
@@ -63,7 +16,87 @@
   data: https://huggingface.co/datasets/Tomie0506/GeoSym127K
   selected: true
 
+- id: jing2026efficient
+  category: published
+  title: Efficient Data Selection for Multimodal Models via Incremental Optimization Utility
+  authors: "<strong>Jinhao Jing</strong><sup>*</sup>, Qiannian Zhao<sup>*</sup>, Chao Huang, and Zhan Su"
+  venue: ACM International Conference on Multimedia
+  display_year: 2026
+  status: '<strong class="publication-accepted">Accepted</strong>'
+  year: 2026
+  abbr: ACM MM
+  color: "#a21caf"
+  preview: ost.png
+  abstract: "The One-Step-Train framework estimates the marginal utility of training examples through a simulated single-step update on a lightweight proxy model. It reduces multimodal training cost while outperforming strong data selection and Full-SFT baselines."
+  arxiv: https://arxiv.org/abs/2605.07488
+  pdf: https://arxiv.org/pdf/2605.07488
+  selected: true
+
+- id: xie2026steve
+  category: published
+  title: "Steve-Evolving: Open-World Embodied Self-Evolution via Fine-Grained Diagnosis and Dual-Track Knowledge Distillation"
+  authors: "Zhengwei Xie, Zhisheng Chen, Ziyan Weng, Jinhan Li, Chenglong Li, Zikai Xiao, Jingwei Song, <strong>Jinhao Jing</strong>, Vireo Zhang, and Kun Wang"
+  venue: NeurIPS 2026
+  display_year: 2026
+  status: '<strong class="publication-accepted">Accepted (poster)</strong>'
+  year: 2026
+  abbr: NeurIPS
+  color: "#b45309"
+  preview: steve-evolving.png
+  abstract: "This work studies self-evolving embodied agents in open-world, long-horizon environments. It transforms execution feedback into reusable behavioral knowledge for planning, diagnosis, and recovery."
+  arxiv: https://arxiv.org/abs/2603.13131
+  pdf: https://arxiv.org/pdf/2603.13131
+  scholar: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pLUxIMAAAAJ&citation_for_view=3pLUxIMAAAAJ:u-x6o8ySG0sC
+  selected: true
+
+- id: su2026cp
+  category: published
+  title: "CP Merging: Joint LoRA Merging using Canonical Polyadic Decomposition"
+  authors: "Zhan Su, Fengran Mo, Guojun Liang, Jinghan Zhang, <strong>Jinhao Jing</strong>, Bingbing Wen, Prayag Tiwari, and Jian-Yun Nie"
+  venue: Transactions on Machine Learning Research (TMLR)
+  display_year: 2026
+  status: '<strong class="publication-accepted">Accepted</strong>'
+  year: 2026
+  abbr: TMLR
+  color: "#0369a1"
+  openreview: https://openreview.net/forum?id=2poB2149km
+  selected: true
+
+- id: jing2026predictive
+  category: preprint
+  title: "Predictive Memory Localization: Forecasting Selective Intervention Paths from Internal Signals"
+  authors: "<strong>Jinhao Jing</strong>, Tian Zeyu, Lucas Qingyang Fang, Zhisheng Chen, Shuang Chen, Yuhao Luo, and Qiannian Zhao"
+  venue: arXiv e-prints
+  display_year: 2026
+  status: "arXiv:2608.12892"
+  year: 2026
+  abbr: PML
+  color: "#2563eb"
+  preview: pml.png
+  abstract: "Predictive Memory Localization treats measured-grid intervention paths as predictive objects for memory localization. Low-dose causal responses forecast selective outcomes and support risk-aware activation-steering decisions across three base models."
+  arxiv: https://arxiv.org/abs/2608.12892
+  pdf: https://arxiv.org/pdf/2608.12892
+  code: https://github.com/Tomie56/Predictive-Memory-Localization
+  data: https://github.com/Tomie56/Predictive-Memory-Localization/tree/main/data
+  selected: true
+
+- id: zeng2026exploration
+  category: preprint
+  title: "Exploration via Activation-Space Steering for Reinforcement Learning with Verifiable Rewards"
+  authors: "Yunan Zeng, <strong>Jinhao Jing</strong>, Xi Cheng, and Yuwang Wang"
+  venue: arXiv e-prints
+  display_year: 2026
+  status: "arXiv:2610.27012"
+  year: 2026
+  abbr: Exploration
+  color: "#7c3aed"
+  abstract: "Activation-space exploration clusters activation differences between correct and incorrect responses to the same problem into a bank of latent exploration vectors. These vectors steer later rollouts toward alternative paths. At equal budget, mean@8 over six math benchmarks exceeds GRPO by 4.87 points on Qwen3-1.7B-Base and 1.87 points on Qwen3-8B-Base."
+  arxiv: https://arxiv.org/abs/2610.27012
+  pdf: https://arxiv.org/pdf/2610.27012
+  selected: true
+
 - id: zhao2026know
+  category: preprint
   title: "Know What You Know: Metacognitive Entropy Calibration for Verifiable RL Reasoning"
   authors: "Qiannian Zhao<sup>*</sup>, Chen Yang<sup>*</sup>, <strong>Jinhao Jing</strong><sup>*</sup>, Yunke Zhang, Xuhui Ren, Lu Yu, Shijie Zhang, and Hongzhi Yin"
   venue: arXiv e-prints
