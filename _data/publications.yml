@@ -59,6 +59,7 @@
   year: 2026
   abbr: TMLR
   color: "#0369a1"
+  preview: cp-merging.png
   openreview: https://openreview.net/forum?id=2poB2149km
   selected: true
 
@@ -90,6 +91,7 @@
   year: 2026
   abbr: Exploration
   color: "#7c3aed"
+  preview: activation-space-exploration.png
   abstract: "Activation-space exploration clusters activation differences between correct and incorrect responses to the same problem into a bank of latent exploration vectors. These vectors steer later rollouts toward alternative paths. At equal budget, mean@8 over six math benchmarks exceeds GRPO by 4.87 points on Qwen3-1.7B-Base and 1.87 points on Qwen3-8B-Base."
   arxiv: https://arxiv.org/abs/2610.27012
   pdf: https://arxiv.org/pdf/2610.27012
